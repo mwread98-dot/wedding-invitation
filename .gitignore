@@ -1,0 +1,10 @@
+node_modules
+dist
+.amplify
+.env
+.env.*
+!.env.example
+coverage
+*.local
+.DS_Store
+
