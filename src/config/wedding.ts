@@ -9,13 +9,13 @@ export type WeddingEvent = {
 export type TimelineItem = { time: string; title: string; note?: string };
 
 export const wedding = {
-  partners: ['Alex', 'Morgan'] as const,
-  date: '2027-06-19T13:30:00+01:00',
-  displayDate: 'Saturday, 19 June 2027',
-  venue: 'Hawthorn House',
-  address: 'Hawthorn Lane, The Cotswolds, GL00 1AA',
-  location: 'The Cotswolds, England',
-  contactEmail: 'hello@example-wedding.co.uk',
+  partners: ['Max', 'Harriet'] as const,
+  date: '2027-07-17T13:30:00+01:00',
+  displayDate: 'Saturday, 17 July 2027',
+  venue: 'Low Osgoodby Grange',
+  address: 'Low Osgoodby Grange, Thirsk YO7 2AL',
+  location: 'Thirsk, North Yorkshire',
+  contactEmail: 'HTMR1998@outlook.com',
   rsvpDeadline: '2027-04-10T23:59:59+01:00',
   introduction:
     'We would be delighted if you would join us for a day of good food, happy tears and dancing beneath the summer sky.',
@@ -24,16 +24,16 @@ export const wedding = {
   events: [
     {
       title: 'The ceremony',
-      date: 'Saturday, 19 June 2027',
+      date: 'Saturday, 17 July 2027',
       time: '1.30 pm',
-      location: 'The Orangery, Hawthorn House',
+      location: 'Low Osgoodby Grange',
       description: 'Please arrive from 12.45 pm and be seated by 1.15 pm.',
     },
     {
       title: 'The reception',
-      date: 'Saturday, 19 June 2027',
-      time: '2.15 pm – midnight',
-      location: 'The Walled Garden, Hawthorn House',
+      date: 'Saturday, 17 July 2027',
+      time: '2.15 pm – 11.30 pm',
+      location: 'Low Osgoodby Grange',
       description: 'Drinks, dinner and dancing will follow in the garden and main house.',
     },
   ] satisfies WeddingEvent[],
@@ -49,10 +49,10 @@ export const wedding = {
     { time: '00.00', title: 'Carriages' },
   ] satisfies TimelineItem[],
   travel: {
-    rail: 'The nearest station is Moreton-in-Marsh, around 20 minutes away by taxi.',
+    rail: 'The nearest station is Thirsk, around 15 minutes away by taxi.',
     parking: 'Complimentary parking is available at the venue from 12.30 pm until noon on Sunday.',
     taxis:
-      'Please pre-book your taxi. Cotswold Cars (00000 000000) and North Hill Taxis (00000 000001) know the venue.',
+      'Please pre-book your taxi.',
   },
   accommodation: [
     { name: 'The Bell at Stow', detail: 'Boutique inn · 12 minutes by taxi' },
