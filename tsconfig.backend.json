@@ -10,7 +10,7 @@
     "noEmit": true,
     "types": ["node", "aws-lambda"],
     "paths": {
-      "$amplify/*": [".amplify/generated/*"]
+      "$amplify/*": ["./.amplify/generated/*"]
     }
   },
   "include": [
